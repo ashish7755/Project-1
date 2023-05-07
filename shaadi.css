@@ -1,0 +1,325 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* @media screen and (min-width:319.5px) and (max-width:468px) { 
+@media screen and (min-width:468.5px) and (max-width:768px) {  */
+/* @media screen and (min-width:768.5px) and (max-width:1199.5px) {  */
+
+header {
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    /* color: white; */
+}
+
+header .brand-logo {
+    height: 70px;
+    width: 100px;
+    /* border: 2px solid red; */
+    background-image: url(/images/home-logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    left: 380px;
+    top: 40px;
+
+}
+
+nav .login {
+    position: relative;
+    right: 480px;
+    top: 60px;
+    font-size: 20px;
+}
+
+nav .login a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul {
+    display: none;
+    /* background-color: blue; */
+    position: absolute;
+    right: 450px;
+    top: 85px;
+    font-size: 14px;
+
+}
+
+nav .login:hover+ul {
+    display: block;
+    color: white;
+}
+
+nav .help {
+    position: relative;
+}
+
+nav .help a {
+    text-decoration: none;
+    color: white;
+}
+
+.homepage {
+    width: 100%;
+    /* height: 600px; */
+    background-image: url(/images/home-page-banner-tvc-v3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 480px;
+
+}
+
+h1 {
+    position: relative;
+    bottom: 200px;
+}
+
+.homepage h1 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+
+}
+
+.homepage article {
+    /* border:2px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: whitesmoke;
+    gap: 40px;
+    position: absolute;
+    bottom: 200px;
+    left: 300px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.508);
+    padding: 5px 20px;
+}
+
+.homepage article .form {
+
+    padding-top: 2vw;
+}
+
+.homepage article .form select {
+    font-size: 20px;
+    border-radius: 3px;
+    color: rgb(132, 130, 130);
+}
+
+.homepage article .form1 select {
+    width: 80%;
+    height: 40px;
+}
+
+/* .homepage article .form2 select{
+    width: 60%;
+} */
+.homepage article .form3 select {
+    width: 100%;
+    height: 40px;
+
+}
+
+.homepage article .form4 select {
+    width: 100%;
+    height: 40px;
+}
+
+.homepage article .btn button {
+    width: 100%;
+    height: 40px;
+    color: white;
+    background-color: #53b9d2;
+    border-color: #53b9d2;
+    border-radius: 5px;
+    position: relative;
+    top: 50px;
+    font-size: 20px;
+
+}
+
+.homepage article .form span {
+    position: relative;
+    padding: 5px 5px;
+    padding-bottom: 10px;
+    bottom: 10px;
+}
+
+.homepage article button:hover {
+    background-color: #408fa3;
+}
+
+.flex-all-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    color: #95959d;
+    background-color: #f1f1f2;
+    padding: 24px 0px;
+
+}
+
+.flex-all-center a {
+    color: #00bcd5;
+    text-decoration: none;
+}
+
+.flex-all-center a:hover {
+    text-decoration: underline;
+}
+
+.head2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 20px;
+}
+
+.head2 .Find_your_Special_Someone {
+    color: brown;
+    padding-top: 40px;
+    font-size: 40px;
+}
+
+.container {
+    display: flex;
+    /* justify-content: center; */
+    padding: 80px;
+    margin-left: 350px;
+    /* text-align: center; */
+}
+
+div .card {
+
+    height: 148px;
+    width: 133px;
+    background-color: #00bcd5;
+    /* background-image: url(/images/home-banner-1.webp); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+
+}
+
+div .card3 {
+    position: relative;
+    left: 60px;
+}
+
+div .card2 {
+    position: relative;
+    left: 50px;
+}
+
+.text-center {
+    color: #95959d;
+
+}
+
+.special_someone a {
+    color: #53b9d2;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 0 0 10px;
+    font-weight: 400;
+    line-height: 26px;
+    position: relative;
+    top: 40px;
+}
+
+.special_someone a:hover {
+    text-decoration: underline;
+    color: #408fa3;
+}
+
+.head {
+    position: relative;
+    top: 30px;
+    margin-top: 10px;
+}
+
+div .head3 {
+    position: relative;
+    right: 40px;
+}
+
+div .head5 {
+    position: relative;
+    left: 30px;
+    text-align: center;
+}
+
+div .wrap1 {
+    padding-left: 30px;
+}
+
+div .wrap2 {
+    padding-left: 80px;
+}
+
+div .wrap3 {
+    padding-left: 100px;
+}
+
+.container1 {
+    width: 100%;
+    background-color: #eee;
+    text-align: center;
+    padding: 26px 0px;
+}
+
+.container1 .heading3 h2 {
+    color: #ff5a60;
+    padding: 30px 0px;
+}
+
+.container3 {
+    width: 100%;
+    background-color: #ff5a60;
+    text-align: center;
+    padding: 26px 0px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.container3 .heading4 h2 {
+    color: white;
+    position: relative;
+    right: 20px;
+}
+
+.container3 .btn1 button {
+    height: 40px;
+    width: 140px;
+    background-color: #ff5a60;
+    border: 2px solid #eee;
+    color: white;
+    font-size: 15px;
+}
+
+.container3 .btn1 button:hover {
+    background-color: white;
+    color: #00bcd5;
+}
+
+.container1 .slider {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px;
+    margin: 20px 0px;
+}
